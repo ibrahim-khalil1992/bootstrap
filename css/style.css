@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+header {
+    width: 100%;
+    background: #000;
+}
+.button {
+    color: white;
+}
+.nav-link {
+    color: white !important; 
+    margin-left: 30px;
+}
+/* End Navbar */
+.banner {
+    width: 100%;
+    background: url(../img/Axit.png);
+    background-size: cover;
+    height: 600px;
+}
+.left {
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.baner {
+    font-family: 'Raleway', sans-serif;   
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+    margin-top: 20px;
+}
+.line {
+    height: 2px;
+    width: 70px;
+    background: white;
+    margin: 32px 0;
+}
+.lorem {
+    font-family: 'Raleway', sans-serif;   
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    margin: 32px 0;
+}
+.btn {
+    background: transparent;
+    padding: 6px 16px;
+    border: 1px solid white;
+    border-radius: none !important;
+}
+.right {
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.right .card {
+    margin-left: 100px;
+    text-align: center;
+    border: 0;
+    margin-left: 200px;
+}
+.right .card-head h4 {
+    background: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 70px;
+}
+.right .card-head h4 span {
+    color: #ff9b51;
+    text-transform: uppercase;
+}
+.right .form-control {
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+.right input::placeholder {
+    color: #ccc;
+}
+.right .card-foot {
+    background: #ff9b51;
+}
+.right .form-btn {
+    /* background: #ff9b51; */
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: transparent;
+    color: white;
+}
+/* end header Section */
+
+.baner-icon {
+    width: 100%;
+    padding: 2px 0;
+}
+.baner-icon h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 12px;
+}
+.baner-icon p {
+    font-family: 'Raleway', sans-serif;   
+    font-size: 14px;
+    font-weight: 300;
+    color: #ccc;
+}
+.baner-icon ul {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+.baner-icon ul li {
+    list-style: none;
+    display: inline-block;
+
+} 
+.baner-icon ul li a i{
+    font-size: 35px;
+    color: #ccc;
+    margin-left: 50px;
+}
+.fas{
+    transform: rotate(45deg);
+}
+/* End Header Part */
+
+/* Start Section Part */
+.fraction {
+    width: 100%;
+    padding: 100px 0;
+    background: #f5f5f5;
+}
+.fraction ul li {
+    /* background: #ff8b38; */
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px solid #f5f5f5;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+    font-weight: 600;
+}
+.selected {
+    background: #ff8b38 !important;
+}
+.default {
+    background: #333333;
+}
+.tab1 {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.tab3 {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.fraction h4 {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+    /* margin-bottom: 30px; */
+}
+.fraction p {
+    font-family: 'Raleway', sans-serif;   
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 10px;
+    /* margin-bottom: 30px; */
+}
+.fraction button {
+     background: #ff8b38;
+     color: white;
+     border: 1px solid white;
+     padding: 10px 30px;
+     border-radius: 5px;
+     margin-left: 5px;
+}
+/* End Section Part */
+
+/* Start Fraction1 Part */
+.fraction1 {
+    width: 100%;
+    padding: 50px 0;
+}
+.fraction1 img {
+    width: 100%;
+}
+.fraction1 .sub {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 80px;  
+}
+.fraction1 .road {
+    height: 2px;
+    width: 65px;
+    background: #ff8b38;
+    margin-left: 80px;
+}
+.fraction1 .subs {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+    padding-left: 80px;
+}
+.top {
+    margin-left: 26px;
+}
+.top .circle {
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ff8b38;
+    border-radius: 50px;
+    margin: 8px 60px;
+    position: absolute;
+}
+.top .cloud {
+    transform: rotate(-45deg);
+    color: #ff8b38;
+    padding-left: 90px;
+    margin-top: 44px;
+    position: relative;
+}
+.top .title {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    /* padding-left: px; */
+}
+.top .lead {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+    /* padding-left: 10px; */
+    /* margin-top: 30px; */
+}
+.botom {
+    margin-left: 36px;
+}
+.botom .circl {
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ff8b38;
+    border-radius: 50px;
+    margin: 11px 53px;
+    position: absolute;
+}
+.botom .cloud {
+    transform: rotate(-45deg);
+    color: #ff8b38;
+    padding-left: 90px;
+    margin-top: 44px;
+    margin-right: -10px;
+    position: relative;
+}
+.botom .title {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    /* padding-left: px; */
+}
+.botom .lead {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+    /* padding-left: 10px; */
+    /* margin-top: 30px; */
+}
+
+/* Start Standard Section */
+.fraction2 {
+    background: #f5f5f5;
+    width: 100%;
+    padding: 50px 0;
+}
+.fraction2 .sub {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 35px;
+}
+.fraction2 .road {
+    height: 2px;
+    width: 65px;
+    background: #ff8b38;
+    margin: 0 35px;
+}
+.fraction2 .subs {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+    padding: 0 35px;
+}
+.fraction2 img {
+    width: 100%;
+    margin-left: 44px;
+}
+
+/* Start Why This Is Awesome part */
+.awesome {
+    width: 100%;
+}
+.why {
+
+}
+.why h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.awesome .why .road {
+    height: 2px;
+    width: 65px;
+    background: #ff8b38;
+    margin: 0 auto;
+    
+}
+.why p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+    padding-bottom: 50px;
+}
+.gol {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff8b38;
+    border-radius: 50px;
+    /* margin: 11px 53px; */
+    margin: -12px 153px;
+    position: absolute;
+}
+.design .far {
+    /* transform: rotate(-45deg); */
+    color: #ff8b38;
+    font-size: 25px;
+    /* padding-left: 90px; */
+    /* margin-top: 44px; */
+    /* margin-right: -10px; */
+    
+    position: relative;
+}
+.design .fas {
+    transform: rotate(5deg);
+    font-size: 25px;
+    color: #ff8b38;
+    position: relative;
+}
+.design h5 {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 20px;
+    font-weight: bold;
+}
+.design p {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+}
+
+/* Start Pricing Section */
+.pricing {
+    width: 100%;
+    background: #f5f5f5;
+    /* border: none !important; */
+    padding-top: 107px;
+    padding-bottom: 40px;
+    /* align-items: flex-start; */
+}
+.pricing .price {
+    
+}
+.row {
+    align-items: flex-end;
+}
+.pricing .price h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.pricing .price .road {
+    height: 2px;
+    width: 65px;
+    background: #ff8b38;
+    margin: 0 auto;
+}
+.pricing .price p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+}
+.pricing form {
+    /* align-content: flex-end; */
+}
+.fast {
+    
+}
+.fast form {
+    
+}
+.fast form .card {
+    border: none;
+    /* margin-top: 100px; */
+}
+.fast .hed {
+    background: #333333;
+    border-radius: 0;
+}
+.fast .hed h3 {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.fast .card .cool {
+    height: 1px;
+    width: 100%;
+    background: #a4a5a8;
+}
+.bodyy {
+    background: #333333;
+}
+.bodyy i {
+    transform: rotate(-0deg);
+    color: #ffffff;
+}
+.bodyy i .fas {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.bodyy i span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+}
+.bodyy p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #a4a5a8;
+    font-style: italic;
+}
+.cole {
+    height: 4px;
+    width: 100%;
+    background: #ff8b38;
+}
+.fot {
+    background: #ffffff;
+    
+}
+.fot .list {
+
+}
+.fot .list ul {
+   
+}
+.fot .list ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+    text-transform: uppercase;
+}
+.colee {
+    height: 40px;
+    width: 100%;
+    background: #ff8b38;
+}
+.colee h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 3px;
+}
+
+/* Here Is Start Customer Review */
+.review {
+    width: 100%;
+    padding: 100px 0;
+}
+.review h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.review .road {
+    height: 2px;
+    width: 65px;
+    background: #ff8b38;
+    margin: 0 auto;
+}
+.review p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+}
+.review .box {
+    background: #f5f5f5;
+    width: 275px;
+    height: 135px;
+    position: absolute;
+    border-radius: 3px;
+}
+.review .bos {
+    background: #f5f5f5;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-left: 13px;
+    margin-top: 110px;
+    transform: rotate(45deg);
+    z-index: -1px;
+}
+.box p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+    margin: 12px 10px;
+}
+.image img {
+    width: 55px;
+    height: 55px;
+}
+.image h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.image p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+}
+
+/* Hrer Is Section Design Part Start */
+.designn {
+    width: 100%;
+    background: url(../img/banner.png);
+    background-size: cover;
+    padding: 70px 0;
+}
+.designn h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.designn .road {
+    height: 2px;
+    width: 65px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.designn p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a4a5a8;
+}
+.designn button {
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* Here Is Start Contact Part */
+.contact {
+    width: 100%;
+    padding: 70px 0;
+}
+.contact h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.contact .road {
+    height: 2px;
+    width: 65px;
+    background: #ff8b38;
+    margin: 0 auto;
+}
+.contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+}
+.contact form .form-control {
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+.contact form ::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+}
+.nich form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+.nich form textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+}
+.contact .btn {
+    background: #ff8b38;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    width: 140px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+/* Here is Start Footer Part */
+.footer {
+    width: 100%;
+    background: #000;
+    /* padding: 10px 0 1px 0; */
+}
+.footer ul {
+    text-align: center;
+    margin-bottom: 5px
+}
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+.footer ul li a i {
+    font-size: 25px;
+    color: #ccc;
+    margin: 0 10px;
+}
+.footer ul li a .fab {
+
+}
+.footer ul li a .fas {
+
+}
+.footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: #ccc;
+}

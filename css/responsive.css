@@ -1,0 +1,166 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .banner{
+      height: auto;
+      padding: 0 auto;
+    }
+    .left{
+      text-align: center;
+    }
+    .line{
+      margin: 29px auto;
+    }
+    .right .card{
+      margin: 0px 0px;
+
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .banner{
+      height: auto;
+      padding: 0 auto;
+    }
+    .right .card{
+      margin-left: 0;
+    }
+    .left{
+      text-align: center;
+    }
+    .line{
+      margin: 29px auto;
+    }
+    .baner{
+      font-size: 25px;
+    
+    }
+    .baner-icon {
+      text-align: center; 
+    }
+    .baner-icon ul li a i{
+      font-size: 25px;
+      margin: 0px 5px;
+      /* text-align: center; */
+    }
+    .baner-icon ul {
+      /* margin-right: 0px; */
+      text-align: center;
+    }
+    .fraction {
+      text-align: center;
+    }
+    .fraction ul li {
+      display: inline-block;
+      width: 95px;
+      height: 95px;
+    }
+    .fraction .col-md-2 {
+      justify-content: center;
+      /* margin-left: 0; */
+    } 
+    .tab1 {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-top-right-radius: 0;
+    }
+    .tab3 {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 0;
+    }
+    .fraction .col-md-6 {
+      margin-bottom: 20px;
+    }
+    .fraction1 .col-md-6 {
+      text-align: center;
+    }
+    .fraction1 .sub {
+      padding-left: 0px;
+    }
+    .fraction1 .subs {
+      padding-left: 0px;
+    }
+    .top .botom {
+      margin-left: 0px;
+    }
+    .fraction1 .road {
+      margin: 0 auto;
+    }
+    .fraction2 {
+      text-align: center;
+    }
+    .fraction2 .road {
+      margin: 0 auto;
+    }
+    .fraction2 img {
+      margin-left: 0;
+    }
+    .awesome .gol {
+      margin: -12px 142px;
+    }
+    .review .box {
+      align: center;
+    }
+    .footer ul li a i {
+      font-size: 20px;
+      margin: 0 8px;
+    }
+  }
